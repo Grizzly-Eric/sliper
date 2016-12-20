@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h3>wipper.js - <small>A lightweight touchscreen sliding js plugin</small></h3>
+  <p>一个轻量的zepto插件，帮助你的webapp实现可以媲美原生的左滑操作体验，</p>
+  <ul>
+    <li><h5>Atlanta Hawks</h5><a href="#">delete</a></li>
+    <li><h5>Boston Celtics</h5><a href="#">delete</a></li>
+    <li><h5>Brooklyn Nets</h5><a href="#">delete</a></li>
+    <li><h5>Charlotte Hornets</h5><a href="#">delete</a></li>
+    <li><h5>Chicago Bulls</h5><a href="#">delete</a></li>
+    <li><h5>Cleveland Cavaliers</h5><a href="#">delete</a></li>
+    <li><h5>Dallas Mavericks</h5><a href="#">delete</a></li>
+    <li><h5>Denver Nuggets</h5><a href="#">delete</a></li>
+    <li><h5>Detroit Pistons</h5><a href="#">delete</a></li>
+    <li><h5>Golden State Warriors</h5><a href="#">delete</a></li>
+    <li><h5>Houston Rockets</h5><a href="#">delete</a></li>
+  </ul>
+
+  <p></p>
+  <script src="js/zepto.js"></script>
+  <script src="js/wipper.js"></script>
+  <script type="text/javascript">
+    Zepto(function($) {
+      $('h5').wipper(70);
+    })
+  </script>
+</body>
+</html>
