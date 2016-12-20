@@ -7,14 +7,14 @@
 
 #### 使用方法：
 
-* 先引入必要js文件，
+先引入必要js文件，
 
-      <script src="js/zepto.js"></script>
-      <script src="js/wipper.js"></script>
+    <script src="js/zepto.js"></script>
+    <script src="js/wipper.js"></script>
 
-* 在给需要的元素绑定方法，
+在给需要的元素绑定方法，
 
-      $('.item').wipper(length) // length是元素左滑的极限位置，默认64px;
+    $('.item').wipper(length) // length是元素左滑的极限位置，默认64px;
 
 *****
 
