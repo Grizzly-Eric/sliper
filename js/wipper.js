@@ -49,7 +49,7 @@
          }else {
            if (actionFlag == 1) { // 本次进行卡滑动
 
-             event.preventDefault();
+            //  event.preventDefault();
              if (objX == 0) { // 如果此卡片未打开
 
                if (X < 0) {
@@ -82,7 +82,7 @@
       });
 
       $(this).on('touchend', function(event) {
-        event.preventDefault();
+        // event.preventDefault();
         actionFlag = 0;
 
         var obj = this;
